@@ -1,1 +1,80 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 1fr);
+    grid-template-rows: auto repeat(4, auto);
+    gap: 10px;
+    width: 90vw;
+    height: 90vh;
+    background-color: #388E3C;
+    padding: 10px;
+}
+.grid-item {
+    background-color: #4CAF50; /* A lighter green for the individual items */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border: 1px solid white; /* White borders as seen in the image */
+}
+
+/* Positioning for each grid item based on the image */
+.item-1 {
+    grid-column: 1 / span 4; /* Starts at column 1, spans 4 columns */
+    grid-row: 1;             /* Stays in row 1 */
+}
+
+.item-2 {
+    grid-column: 1;         /* Stays in column 1 */
+    grid-row: 2 / span 4;   /* Starts at row 2, spans 4 rows */
+}
+
+.item-3 {
+    grid-column: 2;         /* Stays in column 2 */
+    grid-row: 2;            /* Stays in row 2 */
+}
+
+.item-4 {
+    grid-column: 3 / span 2; /* Starts at column 3, spans 2 columns */
+    grid-row: 2;            /* Stays in row 2 */
+}
+
+.item-5 {
+    grid-column: 2 / span 2; /* Starts at column 2, spans 2 columns */
+    grid-row: 3;            /* Stays in row 3 */
+}
+
+.item-6 {
+    grid-column: 4;         /* Stays in column 4 */
+    grid-row: 3;            /* Stays in row 3 */
+}
+
+.item-7 {
+    grid-column: 2;         /* Stays in column 2 */
+    grid-row: 4;            /* Stays in row 4 */
+}
+
+.item-8 {
+    grid-column: 3;         /* Stays in column 3 */
+    grid-row: 4;            /* Stays in row 4 */
+}
+
+.item-9 {
+    grid-column: 4;         /* Stays in column 4 */
+    grid-row: 4;            /* Stays in row 4 */
+}
+
+.item-10 {
+    grid-column: 2 / span 3; /* Starts at column 2, spans 3 columns */
+    grid-row: 5;            /* Stays in row 5 */
+}
