@@ -15,7 +15,7 @@ body {
     gap: 10px;
     width: 90vw;
     height: 90vh;
-    background-color: #388E3C;
+    background-color: white;
     padding: 10px;
 }
 .grid-item {
@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    border: 1px solid white; /* White borders as seen in the image */
+    border: 1px; /* White borders as seen in the image */
 }
 
 /* Positioning for each grid item based on the image */
