@@ -19,13 +19,12 @@ body {
     padding: 10px;
 }
 .grid-item {
-    background-color: #4CAF50; /* A lighter green for the individual items */
+    background-color: green; /* ek lighter green effect ayega issse */
     color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 2em;
-    border: 1px; /* White borders as seen in the image */
+    border: 1px white; /* White borders as seen in the image */
 }
 
 /* Positioning for each grid item based on the image */
