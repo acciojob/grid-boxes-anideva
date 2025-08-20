@@ -8,6 +8,9 @@ body {
     min-height: 100vh;
     background-color: #f0f0f0;
 }
+
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr repeat(3, 1fr);
